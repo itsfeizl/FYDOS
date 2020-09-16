@@ -1,0 +1,445 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: lightgray;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #fff;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url('../images/logo1.jpg') no-repeat;
+  width: 101px;
+  height: 97px;
+  margin: 10px 15px 10px 0;
+}
+
+#arabictextbox {
+    background: url('../images/arabictext.jpg') no-repeat;
+    width: 270px;
+    height: 26px;
+    margin-bottom: 5px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand img{
+    margin-bottom: 5px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'arial', sans-serif;
+  color: #007da5;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .60;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 35px;
+    margin-bottom: 35px;
+}
+#nav-list a {
+  color: #007da5;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: ;
+    color: #224886;
+    font-weight: bold;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#donate{
+    background: #007da5;
+    color: #fff;
+    height: px;
+    border-radius: 10px;
+}
+
+#donate a{
+    color: #fff;
+}
+
+#donate a:hover{
+    background: #224886;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* We Deliver */
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* CAROUSEL CAPTION */
+
+#carousel1{
+    text-align: left;
+    width: 550px;
+    height: 250px;
+    margin-left: -65px;
+}
+
+#carousel1 h3{
+    font-size: 34px;
+    color: #007da5;
+    background: white;
+    padding: 7px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-shadow: ;
+}
+
+#carousel1 p{
+    font-size: 30px;
+    background: #007da5;
+    padding: 10px;
+    line-height: 34px;
+    font-weight: bold;
+    text-shadow: none;
+    margin-bottom: 20px;
+}
+
+#carousel2{
+    text-align: left;
+    width: 550px;
+    height: 250px;
+    margin-left: -65px;
+}
+
+#carousel2 h3{
+    font-size: 34px;
+    background: white;
+    color: #007da5;
+    padding: 7px;
+    margin-left: 0px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+    
+#carousel2 p{
+    font-size: 30px;
+    background: #007da5;
+    padding: 10px;
+    line-height: 34px;
+    font-weight: bold;
+    text-shadow: none;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#carousel2 a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#carousel2 p:hover{
+    background: #224886;
+    color: #fff;
+    text-decoration: none;
+}
+
+#carousel3{
+    text-align: right;
+    width: 500px;
+    height: 250px;
+    margin-left: -65px;
+}
+
+#carousel3 h3{
+    background:#007da5;
+    font-size: 34px;
+    color: #fff;
+    padding: 10px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: left;
+    
+}
+    
+#carousel3 p{
+    width: ;
+    font-size: 24px;
+    background: #224886;
+    padding: 10px;
+    line-height: 34px;
+    font-weight: bold;
+    text-shadow: none;
+    margin-bottom: 20px;
+    text-align:left;
+}
+
+#carousel3 a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#carousel3 p:hover{
+    background: #224886;
+    color: #fff;
+    text-decoration: underline;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('../images/logo1.jpg') no-repeat;
+    width: 101px;
+    height: 97px;
+    margin: 5px 5px 5px 0;
+  }
+    
+   .navbar-brand h1 { /* Restaurant name */
+     padding-top: 0px;
+     font-size: 16px; /* 1vw = 1% of viewport width */
+  }
+
+  /* End Header */
+    
+
+    #carousel1 {
+    text-align: left;
+    width: 450px;
+    height: 150px;
+}
+
+#carousel1 h3 {
+    font-size: 24px;
+    color: #007da5;
+    background: white;
+    padding: 7px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-shadow: ;
+}
+
+#carousel1 p {
+    font-size: 20px;
+    background: #007da5;
+    padding: 10px;
+    line-height: 24px;
+    font-weight: bold;
+    text-shadow: none;
+    margin-bottom: 20px;
+}
+    
+#carousel2 {
+    text-align: left;
+    width: 450px;
+    height: 150px;
+}
+
+#carousel2 h3 {
+    font-size: 24px;
+    color: #007da5;
+    padding: 7px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+    
+#carousel2 p {
+    font-size: 20px;
+    background: #007da5;
+    padding: 10px;
+    line-height: 24px;
+    font-weight: bold;
+    text-shadow: none;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#carousel2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#carousel2 p:hover {
+    background: #224886;
+    color: #fff;
+    text-decoration: none;
+}
+    
+#carousel3 {
+    text-align: right;
+    width: 450px;
+    height: 150px;
+}
+
+#carousel3 h3 {
+    background:#fff;
+    font-size: 24px;
+    color: #007da5;
+    padding: 10px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: ;   
+}
+    
+#carousel3 p {
+    width: ;
+    font-size: 20px;
+    background: #007da5;
+    padding: 10px;
+    line-height: 24px;
+    font-weight: bold;
+    text-shadow: none;
+    margin-bottom: 20px;
+    text-align:left ;
+}
+
+#carousel3 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#carousel3 p:hover {
+    background: #224886;
+    color: #fff;
+    text-decoration: none;
+}
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .navbar-brand h1 { /* Restaurant name */
+        margin-top: 20px;
+        font-size: 14px; /* 1vw = 1% of viewport width */
+  }
+    
+    #arabictextbox {
+    background: url('../images/arabictext.jpg') no-repeat;
+    width: 270px;
+    height: 26px;
+    margin-bottom: 5px;
+}
+    
+    #nav-list {
+        font-size: 14px;
+    }
+    
+    #carousel1 {
+    text-align: center;
+    width: 100%;
+    height: 150px;
+}
+
+#carousel1 h3 {
+    font-size: 24px;
+    color: #007da5;
+    background: white;
+    padding: 7px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-shadow: ;
+}
+
+#carousel1 p {
+    font-size: 20px;
+    background: #007da5;
+    padding: 10px;
+    line-height: 24px;
+    font-weight: bold;
+    text-shadow: none;
+    margin-bottom: 20px;
+}
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 0px;
+    font-size: 11px; /* 1vw = 1% of viewport width */
+    
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .16px;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: ;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+      
+  }
+
+    #header-nav{
+        margin-bottom: 100px;
+    }    
+    
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+
+}
